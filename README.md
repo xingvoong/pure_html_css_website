@@ -1,1 +1,3 @@
-# pure_html_css_website
+# pure html/css website
+
+some practice for webdesign with pure html and css
