@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
 	<head>
 		<title> Xing Vong</title>
@@ -6,43 +5,59 @@
 		<script src="https://kit.fontawesome.com/48384c860e.js" crossorigin="anonymous"></script>
 		<link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
 		<link href="https://fonts.googleapis.com/css?family=Arizonia&display=swap" rel="stylesheet">
-		<script src="assets/scripts/other_dropdown.js"> </script>
+		<script src="jquery-3.4.1.min.js"></script>
+		<script src="assets/scripts/fade_in.js"></script>
+		<script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">window.dojoRequire(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us4.list-manage.com","uuid":"5895b99a1ac03ad71ce05fdc7","lid":"02364d3cf4","uniqueMethods":true}) })</script>
+		<!--
+
+		-->
+		
+
+		
 	</head>
 
 	<body>
 		<div class ="whole_page">
 			<!-- The big container-->
 			<div class = "nav_bar">
+				 
+				<div hidden class = 'dash'></div>
+				<div hidden class ='dash'></div>
+				<div hidden class = 'dash'></div>
 				<div class = "icon">
-					<a href="assets/about_page/about.html" id ="XV" class = "XV">X.V</a>
+					<a href="assets/about_page/about.html" id ="XV" class = "XV">Xing Voong</a>
 				</div>
-
+				
+				<div class = button_container>
+					
+		
 				<div class = "social_media">
 					<div class = mail_icon>
-						<a href = #> <i class="far fa-envelope"></i> </a>
+						<a href = "mailto:xingvoong@gmail.com" > <i class="far fa-envelope"></i> </a>
 				
 					</div>
 
 					<div class = github_icon>
-						<a href = "#"> <i class="fab fa-github"></i> </a>
+						<a href = "https://github.com/xingvoong"> <i class="fab fa-github"></i> </a>
 					</div>
 
 					<div class = linkedin_icon>
-						<a href = "#"> <i class="fab fa-linkedin-in"></i> </a>
+						<a href = "https://www.linkedin.com/in/xvoong/"> <i class="fab fa-linkedin-in"></i> </a>
 					</div>
 
 					<div class = medium_icon>
-						<a href = "#"> <i class="fab fa-medium-m"></i></a>
+						<a href = "https://medium.com/@voongtaoxing95"> <i class="fab fa-medium-m"></i></a>
 					</div>
 					
 					<div class = fb_icon_container>
-						<a href = "#"> <i class="fab fa-facebook-f"></i> </a>
+						<a href = "https://www.facebook.com/taoxing.voong"> <i class="fab fa-facebook-f"></i> </a>
 					</div>
 
 					<div class = twitter_icon>
-						<a href = "#"> <i class="fab fa-twitter"></i> </a>
+						<a href = "https://twitter.com/XingVoong"> <i class="fab fa-twitter"></i> </a>
 					</div>
-						
+					
+					
 				</div>
 
 
@@ -50,81 +65,117 @@
 					<a href = "index.html" id = "Home" class = link_buttons> Home </a>
 					<a href = "assets/about_page/about.html" id = "About" class = link_buttons>About</a>
 					<a href = "assets/writing_page/writing.html" id = "Writing" class = link_buttons>Writing</a>
-					<div class= "dropdown">
-						<button onclick="myFunction()" class="dropbutton">Other</button>
+					<a href = "assets/project_page/project.html" id = "Home" class = link_buttons> Projects </a>
+					<div class= "dropdown" >
+						<button class="dropbutton" >Other</button>
 						<div id="myDropdown" class="dropdown_content">
-							<a href="#">Link 1</a>
-							<a href="#">Link 2</a>
-							<a href="#">Link 3</a>
+							<a href="#">Cal Queer</a>
+							<a href="#">101 Things</a>
+							<a href="#">1001 Books</a>
 						</div>
 					</div>
 
 				</div>
+
+			</div>
+
 				
 			</div>
-			<div class ="bottom_bar">
-				<div class = "bottom_container">
-					<div class = left_container>
-						<div class = first_line_container> 
-							<div class = first_line_text>
-								Xing writes about culture, education and technology,
-							</div>
-						</div>
-
-						<div class = "second_line_container"> 
-							<div class = "second_line_text">
-								If you enjoy his writing, please subscribe for more:
-							</div>
-						</div>
-					</div>
-
-					<div class = right_container>
-						<div class ="email_address_container"> 
-							<div class = email_address_text> Email Address </div>
-						</div>
-						<div class = "two_boxes">
-							<div class = enter_email> </div>
-							<div class = subcribe>
-								<div class = "subcribe_text"> Subcribe </div>
-
-							</div>
-						</div>
-					</div>
+			<div class="bottom_bar">
+				<div class = "copy_right">
+				© Xing Voong 2019
 				</div>
+                <div class="subscribe_pitch">
+                    Xing writes about culture, education and technology,
+                    <br>
+                    If you enjoy his writing, please subscribe for a monthly newsletter:
+                    <br>
+                </div>
+                <div class = "subcribe_bar">
+                	<!--
+                	<input type="text" class = enter_email placeholder="your@email.here">
+                	<button title="Subscribe" class="subscribe_button">Subscribe</button>
+                -->
+                <!-- Begin Mailchimp Signup Form -->
+					<link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
+					<style type="text/css">
+						#mc_embed_signup{ clear:left; font:14px Helvetica,Arial,sans-serif; }
+						/* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
+	   					We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+					</style>
+					
+					<div id="mc_embed_signup">
+		
+					<form action="https://xingvoong.us4.list-manage.com/subscribe/post?u=5895b99a1ac03ad71ce05fdc7&amp;id=02364d3cf4" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    				
+    			<div class = "subscribe_elements" id="mc_embed_signup_scroll">
+
+						<div class="mc-field-group">
+							<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="your@email.here">
+						</div>
+					
+					<div id="mce-responses" class="clear">
+						<div class="response" id="mce-error-response" style="display:none"></div>
+						<div class="response" id="mce-success-response" style="display:none"></div>
+					</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    
+    				<div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_5895b99a1ac03ad71ce05fdc7_02364d3cf4" tabindex="-1" value=""></div>
+    				<div class = subscribe_button><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe"></div>
+   				</div>
+				</form>
+			</div>
+<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+<!--End mc_embed_signup-->
+
+                	
+               	
+                </div>
+                
 			</div>
 
 			<div class = body_bar>
-				
+
+
 				<div class = left_body_container>
 					<div class = x_and_contact_container>
-						X
+						
+						<!-- width = "800" height = "700" -->
+
+						<svg width="63vw" height="55vw">
+							<!-- x=240 y = 520
+							x="20vw" y="72vh"-->
+							<text id = "my_x" x=240 y = 520 fill= "none"  stroke="#FFB833" stroke-width="2vw" font-size= "48vw">
+							X</text>
+						</svg>
+					
+					<!--X-->
+						
 					</div>
 				</div>
 
 				<div class = right_body_container>
 					<div class = intro_contact_container>
+
 						<div class = intro_container>
 							<div class = intro>
-								Hi, I am Xing, <br>
-								a writer and an aspiring <br>
-								software developer.
+								<p>Hi, I am Xing, </p> 
+								<p>a writer and an aspiring</p>
+								<p>software developer. <br> </p>
+								<p2 class = "p2"> this site is still underconstruction. </p2>
+								<p2 class = "p2"> For best experience, please use desktop with Chrome browser.  </p2>
+								<p2 class = "p2">Currently looking for internships/fulltime position after Dec 2019</p2>
 							</div>
+							
 						</div>
+							
 
 						<div class = "contact_me_container">
-							<div class = "contact_me">
-								CONTACT ME
-							</div>
+							<button class = "contact_me" type="button">Contact Me</button>
 						</div>
+
 					</div>
-
-
-					
-
 				</div>
-				
 			</div>
-
 		</div>
 	</body>
 </html>
