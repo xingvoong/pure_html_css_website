@@ -1,3 +1,3 @@
-# pure html/css website
+# Self-designed Profolio website
 
-Designed and Implemented a portfolio website
+Designed and Implemented a portfolio website.
