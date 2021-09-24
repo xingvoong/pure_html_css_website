@@ -5,6 +5,7 @@
 		<link href="https://fonts.googleapis.com/css?family=Merriweather|Merriweather+Sans&display=swap" rel="stylesheet">
 		<script src="https://kit.fontawesome.com/48384c860e.js" crossorigin="anonymous"></script>
 		<link rel="stylesheet" type="text/css" href="writing.css"/>
+		<script src = "click.js"></script>
 	</head>
 
 	<body>
@@ -12,33 +13,33 @@
 			<!-- The big container-->
 			<div class = "nav_bar">
 				<div class = "icon">
-					<a href= "../about_page/about.html" id ="XV" class = "XV">X.V</a>
+					<a href="../about_page/about.html" id ="XV" class = "XV">Xing Voong</a>
 				</div>
 
 				<div class = "social_media">
 					<div class = mail_icon>
-						<a href = #> <i class="far fa-envelope"></i> </a>
+						<a href = "mailto:xingvoong@gmail.com" > <i class="far fa-envelope"></i> </a>
 				
 					</div>
 
 					<div class = github_icon>
-						<a href = "#"> <i class="fab fa-github"></i> </a>
+						<a href = "https://github.com/xingvoong"> <i class="fab fa-github"></i> </a>
 					</div>
 
 					<div class = linkedin_icon>
-						<a href = "#"> <i class="fab fa-linkedin-in"></i> </a>
+						<a href = "https://www.linkedin.com/in/xvoong/"> <i class="fab fa-linkedin-in"></i> </a>
 					</div>
 
 					<div class = medium_icon>
-						<a href = "#"> <i class="fab fa-medium-m"></i></a>
+						<a href = "https://medium.com/@voongtaoxing95"> <i class="fab fa-medium-m"></i></a>
 					</div>
 					
 					<div class = fb_icon_container>
-						<a href = "#"> <i class="fab fa-facebook-f"></i> </a>
+						<a href = "https://www.facebook.com/taoxing.voong"> <i class="fab fa-facebook-f"></i> </a>
 					</div>
 
 					<div class = twitter_icon>
-						<a href = "#"> <i class="fab fa-twitter"></i> </a>
+						<a href = "https://twitter.com/XingVoong"> <i class="fab fa-twitter"></i> </a>
 					</div>
 					
 					
@@ -49,43 +50,120 @@
 					<a href = "../../index.html" id = "Home" class = link_buttons> Home </a>
 					<a href = "../about_page/about.html" id = "About" class = link_buttons>About</a>
 					<a href = "writing.html" id = "Writing" class = link_buttons>Writing</a>
-					<a href = "#" id = "Others" class = link_buttons>Others</a>
+					<a href = "../project_page/project.html" id = "Home" class = link_buttons> Projects </a>
+					<div class= "dropdown" >
+						<button class="dropbutton" >Other</button>
+						<div id="myDropdown" class="dropdown_content">
+							<a href="#">Cal Queer</a>
+							<a href="#">101 Things</a>
+							<a href="#">1001 Books</a>
+						</div>
+					</div>
+
 				</div>
 				
 			</div>
-			<div class ="bottom_bar">
-				<div class = "bottom_container">
-					<div class = left_container>
-						<div class = first_line_container> 
-							<div class = first_line_text>
-								Xing writes about culture, education and technology,
-							</div>
-						</div>
-
-						<div class = "second_line_container"> 
-							<div class = "second_line_text">
-								If you enjoy his writing, please subscribe for more:
-							</div>
-						</div>
-					</div>
-
-					<div class = right_container>
-						<div class ="email_address_container"> 
-							<div class = email_address_text> Email Address </div>
-						</div>
-						<div class = "two_boxes">
-							<div class = enter_email> </div>
-							<div class = subcribe>
-								<div class = "subcribe_text"> Subcribe </div>
-
-							</div>
-						</div>
-					</div>
+			<div class="bottom_bar">
+				<div class = "copy_right">
+				© Xing Voong 2019
 				</div>
+                <div class="subscribe_pitch">
+                    Xing writes about culture, education and technology,
+                    <br>
+                    If you enjoy his writing, please subscribe for a monthly newsletter:
+                    <br>
+                </div>
+                <div class = "subcribe_bar">
+                	<!--
+                	<input type="text" class = enter_email placeholder="your@email.here">
+                	<button title="Subscribe" class="subscribe_button">Subscribe</button>
+                -->
+                <!-- Begin Mailchimp Signup Form -->
+					<link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
+					<style type="text/css">
+						#mc_embed_signup{ clear:left; font:14px Helvetica,Arial,sans-serif; }
+						/* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
+	   					We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+					</style>
+					
+					<div id="mc_embed_signup">
+		
+					<form action="https://xingvoong.us4.list-manage.com/subscribe/post?u=5895b99a1ac03ad71ce05fdc7&amp;id=02364d3cf4" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    				
+    			<div class = "subscribe_elements" id="mc_embed_signup_scroll">
 
+						<div class="mc-field-group">
+							<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="your@email.here">
+						</div>
+					
+					<div id="mce-responses" class="clear">
+						<div class="response" id="mce-error-response" style="display:none"></div>
+						<div class="response" id="mce-success-response" style="display:none"></div>
+					</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    
+    				<div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_5895b99a1ac03ad71ce05fdc7_02364d3cf4" tabindex="-1" value=""></div>
+    				<div class = subscribe_button><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe"></div>
+   				</div>
+				</form>
 			</div>
-			<div class = body>
-				Writing Body
+<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+<!--End mc_embed_signup-->
+
+                	
+               	
+                </div>
+                
+			</div>
+			<div class = body_container>
+
+				<div class = writing_container>
+					<div class = "catogories">
+						<div class = "fiction">
+							<button onclick="location.href='fiction/fiction.html'" class = "button" type="button">Fiction</button>
+						</div>
+						<div class = "non_fiction">
+							<button onclick="location.href='non_fiction/non_fiction.html'" class = "button" type="button">Non-Fiction</button>
+						</div>
+						<div class = all>
+							<button onclick="location.href='writing.html'" class = "button" type="button">All</button>
+						</div>
+					</div>
+					<div class = articles_container>
+						<div class = each_post id = post1>
+							<ul>
+								<li class = date> December 23 2019 </li>
+								<a href = "love/love.html"> <li class = article>Love</li> </a>
+							</ul>
+						</div>
+
+						<div class = each_post id = post1>
+							<ul>
+								<li class = date> December 8 2019 </li>
+								<a href = "guardian_angels/guardian_angels.html"> <li class = article>Guardian Angles</li> </a>
+							</ul>
+						</div>
+
+						<div class = each_post>
+							<ul>
+								<li class = date> Date </li>
+								<a href = "#"> <li class = article>Article II</li> </a>
+							</ul>
+
+						</div>
+
+						<div class = each_post>
+							<ul>
+								<li class = date> Date </li>
+								<a href = "#"> <li class = article>Article III</li> </a>
+							</ul>
+
+						</div>
+
+						
+					</div>
+						
+				</div>
+				
 			</div>
 
 		</div>

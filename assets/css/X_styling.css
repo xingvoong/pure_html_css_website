@@ -1,0 +1,21 @@
+
+
+#X {
+	stroke: #FFB833;
+	stroke-width: 1px;
+	fill: transparent;
+}
+
+#X {
+stroke-dasharray: 2200px;
+stroke-dashoffset: -1900px;
+animation: X-anim 3s linear 0s forwards;
+}
+
+
+@keyframes X-anim {
+from {stroke-dashoffset: -2200px;}
+to {stroke-dashoffset: 0px;}
+from{fill: transparent;}
+to {fill: #FFB833;}
+}
